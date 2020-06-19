@@ -1,0 +1,109 @@
+
+    /* CSS reset  */
+    body {
+        font-family: 'Baloo Bhaina 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("img/bg.jpg");
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: 18px;
+        font-size: 17px;
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        margin: 18px auto;
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        top: 0px;
+
+    }
+
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left img {
+        width: 75px;
+        filter: invert(91%);
+    }
+
+    .container {
+        border: 2px solid rgb(15, 15, 15);
+        margin: 150px 70px;
+        padding: 50px 20px;
+        width: 33%;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 255px;
+        border: 2px solid grey;
+        margin: 11px auto;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        margin: auto;
+        width: 23%;
+    }
+    .log{
+        font-size: 13px;
+        float: right;
+        margin: 10px;
+        padding: 10px;
+    }
+    .log h3:hover{
+        color: grey;
+        text-decoration: underline;
+    }
+    .btn{
+        border: 1px solid black;
+        display: block;
+        width: 60px;
+        margin: auto;
+    }
+    .btn:hover{
+        color: black;
+        background-color: grey;
+    }
